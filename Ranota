@@ -1,0 +1,17 @@
+def get_first_digit_safe():
+    while True:
+        try:
+            number = int(input("Введите трехзначное число: "))
+            
+            if 100 <= number <= 999:
+                first_digit = number // 100
+                print(f"Первая цифра числа {number}: {first_digit}")
+                break
+            else:
+                print("Ошибка! Число должно быть от 100 до 999. Попробуйте еще раз.")
+                
+        except ValueError:
+            print("Ошибка! Введите целое число (только цифры). Попробуйте еще раз.")
+
+# Запуск функции
+get_first_digit_safe()
