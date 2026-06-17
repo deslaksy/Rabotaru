@@ -1,4 +1,4 @@
-INSERT INTO HotelRoom (RoomNumber, IdCategory, Description, Floor, PricePerNight, Status) VALUES
+INSERT INTO HotelRoom (Room_Number, IdCategory, Description, Floor, Price_Per_Night, Status) VALUES
 (1, 13, 'уютный однокомнатный номер с одной большой кроватью', 1, 2950, 'свободен'),
 (2, 13, 'уютный однокомнатный номер с двумя кроватями', 1, 3150, 'занят'),
 (3, 13, 'уютный однокомнатный номер с дополнительным местом', 1, 3050, 'свободен'),
